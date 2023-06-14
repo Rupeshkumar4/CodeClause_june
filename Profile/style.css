@@ -1,0 +1,75 @@
+
+        body{
+            background-color: #eaf6f6 ;
+        }
+
+        h1,h3{
+            color: #66bfbf;
+        }
+
+        h2{
+            color: #048484;
+        }
+
+        hr {
+            
+            border-style: none;
+            border-top-style: dotted;
+            border-color: grey;
+            border-width: 4px;
+            width: 45%;
+            margin-left: 1px;
+        }
+        .profile_photo{
+            width: 250px;
+            height: 250px;
+            box-shadow: 0px 0px 5px 5px #40e7e7;
+            border-radius: 50%;
+        }
+        .view{
+            width: 240;
+            font-size: 22px;
+            background-color:#048484;
+            color: whitesmoke;
+            position:relative;
+            left: 46px;
+            bottom: 0px;
+            opacity: 0;
+            transition: 1.5s;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px 5px #40e7e7;
+            
+        }
+        .profile_photo:hover .view{
+            bottom: 61px;
+            opacity: 1;
+
+        }
+        .profile_photo:hover{
+            box-shadow: 0px 0px 5px 5px rgb(36, 223, 36);
+        }
+
+        h1:hover, h2:hover, h3:hover{
+            color: #40e7e7;
+
+        }
+
+        input[type="submit"]:hover{
+            background-color: #5dbea3;
+        }
+        
+        input[type="reset"]:hover{
+            background-color: #40e7e7;
+        }
+
+        a:hover{
+            color: rgb(57, 239, 90);
+        }
+
+        .border_style{
+            margin: 40px 70px 40px 40px;
+            padding: 40px 100px 40px 50px;
+            border: solid lightgrey;
+            border-width: 3px;
+            border-radius: 20px;
+        }
